@@ -1,21 +1,21 @@
 [
   {
     "name": "Composer",
-    "ring": "adopt",
+    "ring": "use",
     "quadrant": "tools",
     "isNew": "TRUE",
     "description": "Although the idea of dependency management ..."
   },
   {
     "name": "Canary builds",
-    "ring": "trial",
+    "ring": "learn",
     "quadrant": "techniques",
     "isNew": "FALSE",
     "description": "Many projects have external code dependencies ..."
   },
   {
     "name": "Apache Kylin",
-    "ring": "assess",
+    "ring": "evaluate",
     "quadrant": "platforms",
     "isNew": "TRUE",
     "description": "Apache Kylin is an open source analytics solution ..."
