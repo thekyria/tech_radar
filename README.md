@@ -15,4 +15,7 @@ docker run --rm -p 8080:80 --env-file env.list -v /${PWD}:/opt/build-your-own-ra
 start http://localhost:8080/?documentId=http%3A%2F%2Flocalhost%3A8080%2Ffiles%2Ftech_radar.json
 ```
 
-Note the "/" in the `-v` argument due to a [mingw bug](https://stackoverflow.com/questions/50608301/docker-mounted-volume-adds-c-to-end-of-windows-path-when-translating-from-linux).
+Notes:
+
+- "/" in the `-v` argument is due to a [mingw bug](https://stackoverflow.com/questions/50608301/docker-mounted-volume-adds-c-to-end-of-windows-path-when-translating-from-linux)
+- Beware of escaping in `env.file`: <https://stackoverflow.com/a/30494145/10955074>
