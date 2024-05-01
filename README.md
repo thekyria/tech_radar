@@ -19,3 +19,11 @@ Notes:
 
 - "/" in the `-v` argument is due to a [mingw bug](https://stackoverflow.com/questions/50608301/docker-mounted-volume-adds-c-to-end-of-windows-path-when-translating-from-linux)
 - Beware of escaping in `env.file`: <https://stackoverflow.com/a/30494145/10955074>
+
+## json options
+
+- `name`: any string
+- `ring`: `use`, `learn`, `evaluate`, `hold`
+- `quadrant`: `tools`, `languages & frameworks`, `platforms`, `techniques`
+- `isNew`: `TRUE`, `FALSE`
+- `description`: any string
