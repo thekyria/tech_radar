@@ -420,6 +420,13 @@
     "description": ""
   },
   {
+    "name": "Vercel",
+    "ring": "use",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": ""
+  },
+  {
     "name": "VMWare",
     "ring": "learn",
     "quadrant": "platforms",
